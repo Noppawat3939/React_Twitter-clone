@@ -1,5 +1,21 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --twitter-color-light: #d2e7f3;
+  --twitter-color: #1DA1F2;
+  --twitter-color-dark: #0084b4;
+  --twitter-text: rgb(83,100,113);
+  --twitter-color-green: #00b894;
+  --twitter-color-green-light: #75f9d353;
+  --twitter-color-red: #FC427B;
+  --twitter-color-red-light: #f79dbd62;
+  
+  max-width: 100%;
+  height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
